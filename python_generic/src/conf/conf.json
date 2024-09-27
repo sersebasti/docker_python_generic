@@ -1,0 +1,7 @@
+{
+    "files":{
+        "inputsDir": "input",
+        "outputsDir": "output",
+        "loginLogFilename": "login.log"
+    }
+}

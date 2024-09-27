@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  python-generic:
+    env_file: .env
+    container_name: python-generic
+    build:
+      context: .
+    command: sleep infinity 
+    volumes:
+      - ./src:/app    
